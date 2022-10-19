@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    background-image: linear-gradient(#1B262C, #0F4C75, #3282B8, #BBE1FA);
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: 'Lucida Handwriting','Pacifico', cursive;;
+    font-size: 5em;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+}
+
+img {
+    width: 175px;
+    height: 175px;
+    position: relative;
+    top: 20px;
+}
+
+p {
+    color: #F6F6F6;
+    font-size: 125%;
+    line-height: 2;
+}
+
+.top-p {
+    margin-top: 0;
+    text-align: right;
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+    font-size: 2.5em;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.top-container {
+    background-image: url("../images/space.png");
+    background-size: 1920px 1080px;
+    height: 1080px;
+    width: 1920px;
+    position: relative;
+      -webkit-mask:
+        radial-gradient(var(--r1,100%) var(--r2,50%) at top   ,white 79.5%,transparent 80%) top left,
+        radial-gradient(var(--r1,100%) var(--r2,50%) at bottom,transparent 79.5%,white 80%) top center,
+        radial-gradient(var(--r1,100%) var(--r2,50%) at top   ,white 79.5%,transparent 80%) top right;
+       /* adjust the 150% to control the covered area, the bigger the value the bigger the area will be*/
+      -webkit-mask-size:33.4% 187%;
+      -webkit-mask-repeat:no-repeat;
+      margin-bottom: 0;
+}
+
+.middle-container {
+    text-align: center;
+    color: #BBE1FA;
+    height: 2000px;
+    width: 1920px;
+    position: relative;
+    top: 0px;
+}
+
+.bottom-container {
+    background-color: #3F72AF;
+    text-align: center;
+    margin: auto auto;
+    color: #DBE2EF;
+    font-size: 75%;
+    padding: 50px 0 20px;
+}
+
+a{
+    color: #DBE2EF;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #112D4E;
+}
+
+.footer {
+    margin: 25px auto 25px auto;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #DBE2EF;
+    border-width: 5px;
+    width: 5%;
+}
+
+.contact-me {
+    color: #112D4E;
+}
+
+.intro{
+    width: 50%;
+    margin: auto auto;
+}
+
+.cover {
+    color: #BBE1FA;
+    position: absolute;
+    right: 200px;
+    top: 100px;
+}
+
+.rocket {
+    background-image: url("../images/rocketship.png");
+    background-size: 175px 175px;
+    height: 175px;
+    width: 175px;
+    position: absolute;
+    top: 300px;
+    right: 600px;
+}
+
+.computer {
+    float: left;
+    margin-right: 30px;
+}
+
+.code {
+    float: right;
+    margin-left: 30px;
+}
+
+.camera{
+    float: left;
+    margin-right: 30px;
+}
+
+.background-image {
+    width: 1920px;
+    height: 1080px;
+}
+
+.btn {
+  background: #3282B8;
+  background-image: -webkit-linear-gradient(top, #3282B8, #0F4C75);
+  background-image: -moz-linear-gradient(top, #3282B8, #0F4C75);
+  background-image: -ms-linear-gradient(top, #3282B8, #0F4C75);
+  background-image: -o-linear-gradient(top, #3282B8, #0F4C75);
+  background-image: linear-gradient(to bottom, #3282B8, #0F4C75);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #BBE1FA;
+  background-image: -webkit-linear-gradient(top, #BBE1FA, #3282B8);
+  background-image: -moz-linear-gradient(top, #BBE1FA, #3282B8);
+  background-image: -ms-linear-gradient(top, #BBE1FA, #3282B8);
+  background-image: -o-linear-gradient(top, #BBE1FA, #3282B8);
+  background-image: linear-gradient(to bottom, #BBE1FA, #3282B8);
+  text-decoration: none;
+}
+
+hr {
+    margin: 75px auto 75px auto;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #DBE2EF;
+    border-width: 5px;
+    width: 5%;
+}
