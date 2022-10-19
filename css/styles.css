@@ -38,7 +38,7 @@ p {
     margin-top: 0;
     text-align: right;
     font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
-    font-size: 2.5em;
+    font-size: 1.75em;
 }
 
 .skill-row {
@@ -123,8 +123,8 @@ a:hover {
     height: 175px;
     width: 175px;
     position: absolute;
-    top: 300px;
-    right: 600px;
+    top: 350px;
+    right: 650px;
 }
 
 .computer {
